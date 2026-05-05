@@ -93,16 +93,16 @@ export default function RootLayout({
 }) {
     return (
           <html lang="ar" dir="rtl" className={`${cairo.variable} ${amiri.variable}`}>
-                  <head>
-                    {/* Schema.org JSON-LD */}
-                          <script
-                                      type="application/ld+json"
-                                      dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
-                                    />
-                  </head>head>
-                <body className="font-cairo bg-bg text-ink antialiased">
-                  {children}
-                </body>body>
-          </html>html>
-        );
-}</head>
+            <head>
+                {/* Schema.org JSON-LD */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
+                />
+            </head>
+            <body className="font-cairo bg-bg text-ink antialiased">
+                {children}
+            </body>
+        </html>
+    );
+}
