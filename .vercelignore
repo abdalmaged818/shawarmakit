@@ -1,0 +1,11 @@
+.git
+.gitignore
+README.md
+DEPLOY.md
+*.log
+.vscode
+.idea
+.DS_Store
+node_modules
+.next
+.env*.local
