@@ -1,0 +1,124 @@
+{
+  "restaurant": {
+    "name": "شاورما كيت",
+    "tagline": "ينتقي بعناية مذاق الأصالة",
+    "phone": "0566102425",
+    "phoneIntl": "+966566102425",
+    "address": "المدينة المنورة - حي السلام - طريق السلام بعد محطة نجم الطاقة",
+    "hours": {
+      "open": "04:30 PM",
+      "close": "04:30 AM",
+      "openTime": "16:30",
+      "closeTime": "04:30",
+      "label": "4:30 عصراً ← 4:30 فجراً"
+    },
+    "social": {
+      "whatsapp": "https://wa.me/966566102425",
+      "phone": "tel:+966566102425",
+      "googleMaps": "https://maps.app.goo.gl/GxM3Pe48imKZBZxo7?g_st=ic",
+      "instagram": "https://www.instagram.com/shawarma_kit?igsh=MTYwYzltMHg0cXM2OA==",
+      "tiktok": "https://www.tiktok.com/@shawarma.kit?_r=1&_t=ZS-966fwLFgo9S",
+      "keeta": "https://url.mykeeta.com/12ilFrWz",
+      "hungerstation": "https://hungerstation.go.link/?c=SA&s=c&v=48629&so=mls&adj_t=1sdhhuza_1spi9ypp"
+    }
+  },
+  "menu": [
+    {
+      "id": "chicken",
+      "name": "شاورما الدجاج",
+      "icon": "🐔",
+      "bgClass": "bg-bg",
+      "items": [
+        { "id": "c1", "name": "شاورما دجاج", "price": 10, "calories": 475, "image": "شاورما دجاج.jpg", "badge": null },
+        { "id": "c2", "name": "خبز عراقي دجاج", "price": 7, "calories": 280, "image": "خبز عراقي دجاج.jpg", "badge": null },
+        { "id": "c3", "name": "تورتيلا دجاج", "price": 8, "calories": 954, "image": "تورتيلا دجاج.jpg", "badge": null },
+        { "id": "c4", "name": "بوكس كيت", "price": 25, "calories": 1307, "image": "بوكس كيت.jpg", "badge": "الأكثر طلباً", "featured": true },
+        { "id": "c5", "name": "بوكس دجاج", "price": 30, "calories": 1276, "image": "بوكس دجاج.jpg", "badge": null },
+        { "id": "c6", "name": "بوكس مكس", "price": 35, "calories": 1358, "image": "بوكس مكس.jpg", "badge": null },
+        { "id": "c7", "name": "شورجر دجاج", "price": 8, "calories": 475, "image": "شورجر دجاج.jpg", "badge": null },
+        { "id": "c8", "name": "فرط دجاج", "price": 40, "calories": 480, "image": "فرط دجاج.jpg", "badge": "عائلي", "family": true },
+        { "id": "c9", "name": "بيتزا شاورما دجاج", "prices": { "S": 19, "M": 24, "L": 29 }, "calories": { "S": 550, "M": 900, "L": 1171 }, "image": "بيتزا شاورما دجاج.jpg", "badge": null, "multiSize": true },
+        { "id": "c10", "name": "فطيرة شاورما", "price": 15, "calories": 478, "image": "فطيرة شاورما.jpg", "badge": null },
+        { "id": "c11", "name": "لوزية", "price": 22, "calories": 1300, "image": "لوزية.jpg", "badge": null }
+      ]
+    },
+    {
+      "id": "meat",
+      "name": "شاورما اللحم",
+      "icon": "🥩",
+      "bgClass": "bg-bg",
+      "items": [
+        { "id": "m1", "name": "شاورما لحم", "price": 17, "calories": 575, "image": "شاورما لحم.jpg", "badge": null },
+        { "id": "m2", "name": "بوكس لحم", "price": 40, "calories": 1498, "image": "بوكس لحم.jpg", "badge": "مميز", "featured": true },
+        { "id": "m3", "name": "شورجر لحم", "price": 12, "calories": 311, "image": "شورجر لحم.jpg", "badge": null },
+        { "id": "m4", "name": "فرط لحم", "price": 50, "calories": 728, "image": "فرط لحم.jpg", "badge": "عائلي", "family": true }
+      ]
+    },
+    {
+      "id": "barr",
+      "name": "شاورما بخبز البر",
+      "icon": "🌾",
+      "bgClass": "bg-amber-50",
+      "special": true,
+      "items": [
+        { "id": "b1", "name": "شاورما دجاج بر", "price": 10, "calories": 375, "image": "شاورما دجاج بر.jpg", "badge": "بر", "healthy": true },
+        { "id": "b2", "name": "شاورما لحم بر", "price": 17, "calories": 575, "image": "شاورما لحم بر.jpg", "badge": "بر", "healthy": true },
+        { "id": "b3", "name": "فطيرة شاورما بر", "price": 15, "calories": 373, "image": "فطيرة شاورما بر.jpg", "badge": "بر", "healthy": false },
+        { "id": "b4", "name": "بيتزا شاورما بر", "prices": { "S": 19, "M": 24, "L": 29 }, "image": "بيتزا شاورما بر.jpg", "badge": "بر", "multiSize": true },
+        { "id": "b5", "name": "بوكس كيت بر", "price": 25, "calories": 1199, "image": "بوكس كيت بر.jpg", "badge": "بر", "healthy": false }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "المشروبات",
+      "icon": "🥤",
+      "bgClass": "bg-bg",
+      "type": "drinks",
+      "items": [
+        { "id": "d1", "name": "عصير رمان", "prices": { "S": 3, "M": 4, "L": 8 }, "calories": 600, "image": "عصير رمان.jpg" },
+        { "id": "d2", "name": "عصير كوكتيل", "prices": { "S": 3, "M": 7, "L": 9 }, "calories": 440, "image": "عصير كوكتيل.jpg" },
+        { "id": "d3", "name": "عصير مانجو", "prices": { "S": 4, "M": 7, "L": 9 }, "calories": null, "image": "عصير مانجو.jpg" },
+        { "id": "d4", "name": "عصير برتقال", "prices": { "S": 4, "M": 8, "L": 10 }, "calories": null, "image": "عصير برتقال.jpg" }
+      ]
+    },
+    {
+      "id": "fries",
+      "name": "البطاطس",
+      "icon": "🍟",
+      "bgClass": "bg-bg",
+      "items": [
+        { "id": "f1", "name": "بطاطس عادي", "price": 7, "calories": 85, "image": "بطاطس عادي.jpg", "badge": null },
+        { "id": "f2", "name": "بطاطس جبن", "price": 8, "calories": 154, "image": "بطاطس جبن.jpg", "badge": null }
+      ]
+    },
+    {
+      "id": "sauces",
+      "name": "الصلصات",
+      "icon": "🫙",
+      "bgClass": "bg-bg",
+      "type": "sauces",
+      "price": 1,
+      "items": [
+        { "id": "s1", "name": "ثوم", "calories": 198, "image": "ثوم.jpg" },
+        { "id": "s2", "name": "كوكتيل", "calories": 125, "image": "كوكتيل.jpg" },
+        { "id": "s3", "name": "طحينة", "calories": 89, "image": "طحينة.jpg" },
+        { "id": "s4", "name": "باربكيو", "calories": 172, "image": "باربكيو.jpg" },
+        { "id": "s5", "name": "ماريا", "calories": 121, "image": "ماريا.jpg" },
+        { "id": "s6", "name": "حار", "calories": 98, "image": "حار.jpg", "spicy": true },
+        { "id": "s7", "name": "مخلل", "calories": 57, "image": "مخلل.jpg" },
+        { "id": "s8", "name": "صوص كيت", "calories": 78, "image": "صوص كيت.jpg", "featured": true }
+      ]
+    },
+    {
+      "id": "extras",
+      "name": "الإضافات",
+      "icon": "➕",
+      "bgClass": "bg-bg",
+      "type": "extras",
+      "items": [
+        { "id": "e1", "name": "جبن للبوكس", "price": 3, "image": "جبن للبوكس.jpg" },
+        { "id": "e2", "name": "جبن للشاورما", "price": 1, "image": "جبن للشاورما.jpg" }
+      ]
+    }
+  ]
+}
